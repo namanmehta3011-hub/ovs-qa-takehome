@@ -4,7 +4,7 @@ Automated tests for the Assignment Submission feature (Scenario A), written
 in Playwright with TypeScript.
 
 I chose Playwright/TypeScript because it matches the automation framework work I'm 
-currently doing, and TypeScript's type safety helps catch mistakes early — useful 
+currently doing, and TypeScript's type safety helps catch mistakes early. It is useful 
 since I didn't have access to a live system to test against. I targeted the core 
 upload flow: a valid submission, an oversized file, and an unsupported file type, 
 using realistic assumed selectors (documented as comments in the code) since the 
